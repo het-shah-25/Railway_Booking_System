@@ -1,0 +1,32 @@
+.centered-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.centered-heading {
+  text-align: center;
+  margin-bottom: 20px; /* Add some spacing below the heading */
+}
+
+.train-table td,
+.train-table th {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.train-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+.alert.alert-danger {
+  color: #721c24;
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  border-radius: 0.25rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}

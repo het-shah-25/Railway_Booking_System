@@ -1,0 +1,39 @@
+/* TrainSchedule.css */
+.train-schedule-container {
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.train-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.train-table th,
+.train-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.train-table th {
+  background-color: #f2f2f2;
+}
+
+.train-table tr:hover {
+  background-color: #f5f5f5;
+}
+
+/* TrainSchedule.css */
+.train-schedule-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+.centered-heading {
+  text-align: center;
+  margin-bottom: 20px; /* Add some spacing below the heading */
+}
